@@ -1,6 +1,7 @@
 package cn.arybin.fearnotwords.databases;
 
 import android.content.Context;
+import android.content.res.AssetManager;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -33,6 +34,13 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
+
+        sqLiteDatabase.beginTransaction();
+
+        //insert rows here
+
+        sqLiteDatabase.endTransaction();
+
 
     }
 
