@@ -1,4 +1,4 @@
-package cn.arybin.fearnotwords.databases.migration;
+package cn.arybin.fearnotwords.database.migration;
 
 /**
  * Created by arybin on 16-8-8.
